@@ -85,6 +85,7 @@ def get_default_algorithms():
         default_algorithms.update(
             {
                 "RS256": RSAAlgorithm(RSAAlgorithm.SHA256),
+                "RSA-OAEP": RSAAlgorithm(RSAAlgorithm.SHA256),
                 "RS384": RSAAlgorithm(RSAAlgorithm.SHA384),
                 "RS512": RSAAlgorithm(RSAAlgorithm.SHA512),
                 "ES256": ECAlgorithm(ECAlgorithm.SHA256),
